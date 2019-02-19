@@ -29,4 +29,4 @@ echo "apt install curl"
 echo "apt install nano"
 echo "apt install cmatrix"
 chmod +x t-packages.sh
-cat>data/data/com.termux/files/usr/bin/zsh/t-packages.sh
+cat>data/data/com.termux/files/usr/bin/zsh/
