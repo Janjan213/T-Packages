@@ -1,5 +1,5 @@
 #!/bin/zsh
-cat>t-packages.sh
+#cat>t-packages.sh
 apt update && apt upgrade
 pkg update && pkg upgrade
 apt install python
