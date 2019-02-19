@@ -1,5 +1,7 @@
 #!/bin/zsh
 #cat>t-packages.sh
+clear
+echo Tools
 apt update && apt upgrade
 pkg update && pkg upgrade
 apt install python
@@ -14,6 +16,5 @@ apt install git
 apt install wget
 apt install ncurses-utils
 apt install cmatrix
-apt install node.js
 apt install weeman
 chmod +x *
