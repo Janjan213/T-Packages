@@ -1,6 +1,6 @@
 #!/bin/bash
 ##
-sht-packages.sh
+sh t-packages.sh
 chmod +x t-packages.sh
 pkg update -y
 pkg upgrade -y
