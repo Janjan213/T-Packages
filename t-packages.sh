@@ -1,6 +1,5 @@
 #!/bin/zsh
 cat>t-packages.sh
-echo TERMUX PACKAGES IN ONE SCRIPT
 apt update && apt upgrade
 pkg update && pkg upgrade
 apt install python
@@ -18,5 +17,3 @@ apt install cmatrix
 apt install node.js
 apt install weeman
 chmod +x *
-clear
-echo Done
