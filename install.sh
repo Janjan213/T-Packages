@@ -1,17 +1,17 @@
 #!/bin/zsh
 #cat>install.sh
 clear
-figlet -f big updating and upgrading packages please wait
+read updating and upgrading packages please wait
 #
 #
 apt update
 apt upgrade
 #
 #
-figlet -f small DONE
+read DONE
 #
 #
-figlet -f small Installing packages please wait...
+read small Installing packages please wait...
 #
 #
 apt install python
@@ -23,7 +23,7 @@ apt install figlet
 apt install cowsay
 #
 #
-figlet -f small DONE
+read DONE
 #
 #
-figlet -f small to be continued
+read to be continued
