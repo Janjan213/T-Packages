@@ -1,14 +1,32 @@
-#!/bin/bash
-##
-sh t-packages.sh
+#!/data/data/com.termux/files/usr/bin/zsh
+#
+#
+#
+read "Termux Packages In One Script"
+#
+#
+#
+clear
+#
+#
+#
+read "INSTALLING UPDATE"
+#
+#
+#
+echo "apt update"
+echo "apt upgrade"
+#
+read "Updating Done"
+#
+#
+read "Installing Packages Please Wait"
+echo "apt install python"
+echo "apt install python2"
+echo "apt install figlet"
+echo "apt install cowsay"
+echo "apt install curl"
+echo "apt install nano"
+echo "apt install cmatrix"
 chmod +x t-packages.sh
-pkg update -y
-pkg upgrade -y
-pkg install python -y
-pkg install python2 -y
-pkg install figlet -y
-pkg install cowsay -y
-pkg install curl -y
-pkg install nano -y
-pkg install cmatrix -y
-chmod +x t-packages.sh
+cat>data/data/com.termux/files/usr/bin/zsh/t-packages.sh
