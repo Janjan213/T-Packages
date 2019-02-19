@@ -1,10 +1,9 @@
 #!/bin/bash
 ##
-cat>t-packages.sh
+sht-packages.sh
 chmod +x t-packages.sh
 pkg update -y
 pkg upgrade -y
-clear
 pkg install python -y
 pkg install python2 -y
 pkg install figlet -y
