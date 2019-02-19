@@ -1,5 +1,7 @@
+#!/bin/bash
+##
 cat>t-packages.sh
-chmod +x * T-Packages.sh
+chmod +x t-packages.sh
 pkg update -y
 pkg upgrade -y
 clear
