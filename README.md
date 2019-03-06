@@ -1,5 +1,5 @@
 # T-Packages
-Termux Packages In one Script
+Termux Packages Auto install
 
 # Requirements:
 Download Termux app 
